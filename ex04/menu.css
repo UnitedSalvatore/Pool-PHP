@@ -1,0 +1,36 @@
+.sandwich {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Helvetica;
+}
+a, a:hover, a:visited, a:focus {
+	color: inherit;
+	text-decoration: none;
+}
+ul.menu li {
+	display: none;
+	border-top: 1px solid black;
+	padding: 12px 12px 12px 20px;
+}
+ul.menu li:first-child {
+	display: block;
+	border-top: 0px;
+	padding-left: 10px;
+}
+ul.menu:hover li {
+	display: block;
+}
+ul.menu:hover li:first-child {
+	background-color: #A1A1A1;
+}
+.menu {
+	background-color: #C1C1C1;
+	width: 300px;
+	padding: 0px;
+	border: 1px solid black;
+	text-align: center;
+	float: left;
+}
