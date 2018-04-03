@@ -3,82 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Periodic table</title>
-	<style>
-		h1 {
-			text-align: center;
-			color: #c0c0c0;
-		}
-		body {
-			background-image: url("https://signin.intra.42.fr/assets/background_login-a4e0666f73c02f025f590b474b394fd86e1cae20e95261a6e4862c2d0faa1b04.jpg");
-			background-size: cover;
-		}
-		table {
-			width: 100%;
-			height: 100%;
-		}
-		td {
-			position: relative;
-			border: 2px groove black;
-			text-align: center;
-		}
-		p.mass {
-			text-align: right;
-			position: absolute;
-			margin: 0;
-			top: 0;
-			right: 0;
-			margin-right: 2px;
-			font-size: 1.5vmin;
-		}
-		h2 {
-			text-align: center;
-			font-size: 2vmin;
-		}
-		p.number {
-			text-align: left;
-			position: absolute;
-			margin: 0;
-			bottom: 0;
-			left: 0;
-			margin-left: 2px;
-			font-size: 1.5vmin;
-		}
-		td.yellow {
-			background-color: yellow;
-		}
-		td.grey{
-			background-color: #d3d3d3;
-		}
-		td.turquoise {
-			background-color: #58D3F7;
-		}
-		td.cream {
-			background-color: #F79F81;
-		}
-		td.green {
-			background-color: #04B404;
-		}
-		td.pink {
-			background-color: #F78181;
-		}
-		td.blue {
-			background-color: #0080FF;
-		}
-	</style>
+	<link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-	<div style="overflow-x: auto;">
+	<div class="overflow">
 	<h1>Periodic Table of the Elements</h1>
-	<table  style="100%" contenteditable="true">
+	<table contenteditable="true">
 		<tr>
 			<td class="yellow"><p class="mass">1.008</p><h2>H</h2><p class="number">1</p></td>
-			<td colspan="16" style="border: none"></td>
+			<td colspan="16" class="no_border"></td>
 			<td class="pink"><p class="mass">4.00</p><h2>He</h2><p class="number">2</p></td>
 		</tr>
 		<tr>
 			<td class="cream"><p class="mass">6.94</p><h2>Li</h2><p class="number">3</p></td>
 			<td class="blue"><p class="mass">9.01</p><h2>Be</h2><p class="number">4</p></td>
-			<td colspan="10" style="border: none"></td>
+			<td colspan="10" class="no_border"></td>
 			<td class="cream"><p class="mass">10.81</p><h2>B</h2><p class="number">5</p></td>
 			<td class="green"><p class="mass">12.01</p><h2>C</h2><p class="number">6</p></td>
 			<td class="green"><p class="mass">14.01</p><h2>N</h2><p class="number">7</p></td>
@@ -89,7 +28,7 @@
 		<tr>
 			<td class="cream"><p class="mass">22.99</p><h2>Na</h2><p class="number">11</p></td>
 			<td class="blue"><p class="mass">24.31</p><h2>Mg</h2><p class="number">12</p></td>
-			<td colspan="10" style="border: none"></td>
+			<td colspan="10" class="no_border"></td>
 			<td class="turquoise"><p class="mass">26.98</p><h2>Al</h2><p class="number">13</p></td>
 			<td class="cream"><p class="mass">28.09</p><h2>Si</h2><p class="number">14</p></td>
 			<td class="green"><p class="mass">30.97</p><h2>P</h2><p class="number">15</p></td>
@@ -178,10 +117,10 @@
 			<td class="pink"><p class="mass">[294]</p><h2>Uuo</h2><p class="number">118</p></td>
 		</tr>
 		<tr>
-			<td  style="border: none"><br></td>
+			<td  class="no_border"><br></td>
 		</tr>
 		<tr>
-			<td colspan="2" style="border: none"></td>
+			<td colspan="2" class="no_border"></td>
 			<td class="grey"><p class="mass">138.91</p><h2>La</h2><p class="number">57</p></td>
 			<td class="grey"><p class="mass">140.12</p><h2>Ce</h2><p class="number">58</p></td>
 			<td class="grey"><p class="mass">140.91</p><h2>Pr</h2><p class="number">59</p></td>
@@ -198,7 +137,7 @@
 			<td class="grey"><p class="mass">173.05</p><h2>Yb</h2><p class="number">70</p></td>
 		</tr>
 		<tr>
-			<td colspan="2" style="border: none"></td>
+			<td colspan="2" class="no_border"></td>
 			<td class="grey"><p class="mass">[227]</p><h2>Ac</h2><p class="number">89</p></td>
 			<td class="grey"><p class="mass">232.04</p><h2>Tn</h2><p class="number">90</p></td>
 			<td class="grey"><p class="mass">231.04</p><h2>Pa</h2><p class="number">91</p></td>

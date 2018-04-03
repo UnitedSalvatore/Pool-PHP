@@ -1,0 +1,66 @@
+h1 {
+	text-align: center;
+	color: #c0c0c0;
+}
+body {
+	background-image: url("https://signin.intra.42.fr/assets/background_login-a4e0666f73c02f025f590b474b394fd86e1cae20e95261a6e4862c2d0faa1b04.jpg");
+	background-size: cover;
+}
+table {
+	width: 100%;
+	height: 100%;
+}
+td {
+	position: relative;
+	border: 2px groove black;
+	text-align: center;
+}
+p.mass {
+	text-align: right;
+	position: absolute;
+	margin: 0;
+	top: 0;
+	right: 0;
+	margin-right: 2px;
+	font-size: 1.5vmin;
+}
+h2 {
+	text-align: center;
+	font-size: 2vmin;
+}
+p.number {
+	text-align: left;
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: 2px;
+	font-size: 1.5vmin;
+	}
+td.yellow {
+	background-color: yellow;
+}
+td.grey{
+	background-color: #d3d3d3;
+}
+td.turquoise {
+	background-color: #58D3F7;
+}
+td.cream {
+	background-color: #F79F81;
+}
+td.green {
+	background-color: #04B404;
+}
+td.pink {
+	background-color: #F78181;
+}
+td.blue {
+	background-color: #0080FF;
+}
+.no_border {
+	border: none;
+}
+.overflow {
+	overflow-x: auto;
+}
