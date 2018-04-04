@@ -6,6 +6,6 @@ if ($argc == 2)
 	$str = "";
 	foreach($array as $word)
 		$str .= $word." ";
-	echo trim($str)."\n";
+	echo trim($str).PHP_EOL;
 }
 ?>
